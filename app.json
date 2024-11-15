@@ -2,6 +2,7 @@
   "expo": {
     "name": "PropertyBookingApp",
     "slug": "PropertyBookingApp",
+    "scheme": "propertybookingapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -19,10 +20,22 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.darshan2911.PropertyBookingApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "2b2dece9-a8fb-48ba-9ccf-d21502dbb377"
+      }
     }
   }
 }
